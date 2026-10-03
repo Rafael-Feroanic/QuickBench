@@ -1,0 +1,10 @@
+quickbench
+*.o
+*.d
+*.gcda
+*.gcno
+*.gcov
+compile_commands.json
+build/
+dist/
+*.log
