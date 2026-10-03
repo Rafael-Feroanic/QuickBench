@@ -5,7 +5,7 @@ LDFLAGS ?=
 LDLIBS ?= -pthread -lm
 
 TARGET = quickbench
-SOURCES = src/main.c
+SOURCES = src/main.c src/topology_linux.c
 OBJECTS = $(SOURCES:.c=.o)
 
 .PHONY: all clean test debug sanitize
